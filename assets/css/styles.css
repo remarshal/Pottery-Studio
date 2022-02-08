@@ -1,12 +1,3 @@
-/* =========== Custom Color Palette =========== */
-/*  
-#f0eee2
-#d9d0bb
-#c0c7b7
-#b9dced
-#4FCCCA 
- */
-
 /* =========== Elements =========== */
 header {
     background-color:#f0eee2 ;
@@ -43,22 +34,9 @@ header {
 
 #featured-section {
     background-image: url(/assets/img/dots.png);
-    /* height: auto; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-
 }
 
-/* #hero {
-    width: 100%;
-    height: 50vh;
-    background: url("/assets/img/flowers.png") top center;
-    background-size: cover;
-    opacity: .5;
-} */
-
 /* =========== Classes =========== */
-
 .play-section {
     background-color:#f0eee2 ;
     background-image: url(/assets/img/dots.png);
@@ -79,6 +57,12 @@ header {
 .call-to-action {
     background-image: linear-gradient(to right, #f0eee2 -100%, #4fccca 100%);
 }
+
+.store-front h5 {
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+}
+
 /* padding spacer continuation */
 .py-6 {
     padding: 100px;
@@ -108,7 +92,3 @@ header {
     margin-bottom: 200px;
 }
 
-.store-front h5 {
-    font-family: 'Poiret One', cursive;
-    text-transform: uppercase;
-}

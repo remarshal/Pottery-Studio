@@ -1,0 +1,101 @@
+/* =========== Variables =========== */
+$color-primary: #4FCCCA;
+$color-background: #f0eee2; 
+$color-secondary: #d9d0bb;
+$color-mid: #c0c7b7;
+$color-accent: #b9dced;
+
+$body-font: 'Open Sans', sans-serif;
+$header-font: 'Poiret One', cursive;
+
+/* =========== Elements =========== */
+header {
+    background-color:$color-background;
+    background-image: url(/assets/img/dots.png);
+    width: auto;
+}
+ h1 {
+    font-size: 55px;
+}
+
+/* =========== IDs =========== */
+#home-header {
+    background-color:$color-background;
+    background-image: url(/assets/img/dots.png);
+    height: auto;
+    h1 {
+        font-size: 100px;
+    };
+}
+
+#typed {
+    font-size: 50px;
+}
+
+#navBrand {
+    font-family: $header-font;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+#featured-section {
+    background-image: url(/assets/img/dots.png);
+}
+
+/* =========== Classes =========== */
+.play-section {
+    background-color:$color-background;
+    background-image: url(/assets/img/dots.png);
+    height: auto;
+}
+
+/* social media icons */
+.fa {
+    padding: 35px;
+    font-size: 35px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: $color-primary;
+}
+
+.call-to-action {
+    background-image: linear-gradient(to right, $color-background; -100%, $color-primary 100%);
+}
+
+.store-front h5 {
+    font-family: $header-font;
+    text-transform: uppercase;
+}
+
+/* padding spacer continuation */
+.py {
+    6 {
+        padding: 100px;
+    };
+    7 {
+        padding: 150px;
+    };
+    8 {
+        padding: 200px;
+    };
+}
+
+/* margin spacer continuation */
+
+.my {
+    6 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    };
+    7 {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    };
+    8 {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    };
+}
