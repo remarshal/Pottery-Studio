@@ -1,11 +1,12 @@
 {
-  "name": "pottery studio",
+  "name": "pottery-studio",
   "version": "1.0.0",
   "description": "Cermaic Pottery Store",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server",
+    "scss": "node-sass -o assets/css/ assets/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/remarshal/pottery-studio#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
