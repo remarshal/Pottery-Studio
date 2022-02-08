@@ -1,5 +1,5 @@
 {
-  "name": "round-trip-clayworks",
+  "name": "pottery studio",
   "version": "1.0.0",
   "description": "Cermaic Pottery Store",
   "main": "index.html",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remarshal/round-trip-clayworks.git"
+    "url": "git+https://github.com/remarshal/pottery-studio.git"
   },
   "author": "remarshal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/remarshal/round-trip-clayworks/issues"
+    "url": "https://github.com/remarshal/pottery-studio/issues"
   },
-  "homepage": "https://github.com/remarshal/round-trip-clayworks#readme",
+  "homepage": "https://github.com/remarshal/pottery-studio#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
