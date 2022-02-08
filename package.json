@@ -1,0 +1,29 @@
+{
+  "name": "round-trip-clayworks",
+  "version": "1.0.0",
+  "description": "Cermaic Pottery Store",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remarshal/round-trip-clayworks.git"
+  },
+  "author": "remarshal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remarshal/round-trip-clayworks/issues"
+  },
+  "homepage": "https://github.com/remarshal/round-trip-clayworks#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "typed.js": "^2.0.12"
+  }
+}
