@@ -10,7 +10,7 @@ $header-font: 'Poiret One', cursive;
 /* =========== Elements =========== */
 header {
     background-color:$color-background;
-    background-image: url(/assets/img/dots.png);
+    background-image: url(assets/img/dots.png);
     width: auto;
 }
  h1 {
@@ -20,7 +20,7 @@ header {
 /* =========== IDs =========== */
 #home-header {
     background-color:$color-background;
-    background-image: url(/assets/img/dots.png);
+    background-image: url(assets/img/dots.png);
     height: auto;
     h1 {
         font-size: 100px;
@@ -39,13 +39,13 @@ header {
 }
 
 #featured-section {
-    background-image: url(/assets/img/dots.png);
+    background-image: url(assets/img/dots.png);
 }
 
 /* =========== Classes =========== */
 .play-section {
     background-color:$color-background;
-    background-image: url(/assets/img/dots.png);
+    background-image: url(assets/img/dots.png);
     height: auto;
 }
 
