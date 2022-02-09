@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server",
-    "scss": "node-sass -o assets/css/ assets/css/",
+    "scss": "node-sass -o css/ css/",
     "imagemin": "imagemin assets/img/* -o dist/assets/img && imagemin assets/store/* -o dist/assets/store",
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin shop.html -d dist --htmlmin -o dist/shop.html ",
     "clean": "rimraf dist",
