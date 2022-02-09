@@ -1,7 +1,7 @@
 /* =========== Elements =========== */
 header {
   background-color: #f0eee2;
-  background-image: url(/assets/img/dots.png);
+  background-image: url("/assets/img/dots.png");
   width: auto; }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 /* =========== IDs =========== */
 #home-header {
   background-color: #f0eee2;
-  background-image: url(/assets/img/dots.png);
+  background-image: url("/assets/img/dots.png");
   height: auto; }
   #home-header h1 {
     font-size: 100px; }
@@ -25,12 +25,12 @@ h1 {
   font-weight: 700; }
 
 #featured-section {
-  background-image: url(/assets/img/dots.png); }
+  background-image: url("/assets/img/dots.png"); }
 
 /* =========== Classes =========== */
 .play-section {
   background-color: #f0eee2;
-  background-image: url(/assets/img/dots.png);
+  background-image: url("/assets/img/dots.png");
   height: auto; }
 
 /* social media icons */
