@@ -5,3 +5,11 @@ const typed = new Typed('#typed',{
     typeSpeed: 100,
     loop: true,
 });
+
+function fix() {
+    if (condition) {
+        
+    } else {
+        
+    }
+}
